@@ -37,5 +37,6 @@ jobs:
     - name: Run my file
       run: |
         python ./sample.py
+        python ./Nested_dict.py
 
     
