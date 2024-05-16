@@ -3,7 +3,7 @@ complex_dict = {
         'name': 'John',
         'age': 30,
         'address': {
-            'street': '123 Main St',
+            'street': '123 Main Street',
             'city': 'Anytown',
             'zipcode': '12345'
         }
