@@ -1,6 +1,6 @@
 complex_dict = {
     'personal_info': {
-        'name': 'Johnny',
+        'name': 'John',
         'age': 30,
         'address': {
             'street': '123 Main Street',
