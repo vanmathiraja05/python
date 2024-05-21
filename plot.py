@@ -1,20 +1,19 @@
-#Three lines to make our compiler able to draw:
-import sys
-import matplotlib
-matplotlib.use('Agg')
-
-import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('data.csv')
+# Sample data
+x = [1, 2, 3, 4, 5]
+y = [2, 3, 5, 7, 11]
 
+# Create the plot
+plt.plot(x, y, marker='o')
 
-df.plot(kind = 'hist', x = 'Duration', y = 'Calories')
-print(df.head())
+# Add title and labels
+plt.title("Simple Line Plot")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+
+# Save the plot as an image
+plt.savefig('plot.png')
+
+# Display the plot
 plt.show()
-
-#Two  lines to make our compiler able to draw:
-plt.savefig(sys.stdout.buffer)
-print("17############################################################################################\n")
-sys.stdout.flush()
-print("18")
